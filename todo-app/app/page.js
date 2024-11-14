@@ -53,6 +53,7 @@ const App = () => {
         maxWidth: '600px',
         margin: '0 auto',
         padding: '20px',
+        color:'black'
       }}
     >
       <div
@@ -61,10 +62,10 @@ const App = () => {
           fontSize: '2.5rem',
           fontWeight: 'bold',
           marginBottom: '20px',
-          color: 'green',
+          color: 'Blue',
         }}
       >
-        Geeksforgeeks
+        Roy van Heeswijk
       </div>
       <div
         style={{
@@ -97,8 +98,8 @@ const App = () => {
             fontSize: '1.2rem',
             padding: '10px 20px',
             backgroundColor: '#4caf50',
-            color: 'white',
-            border: 'none',
+            color: 'black',
+            border: 'blue',
             borderRadius: '8px',
             cursor: 'pointer',
           }}
