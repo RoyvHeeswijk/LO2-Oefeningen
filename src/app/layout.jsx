@@ -4,15 +4,15 @@ import "./globals.css";
 
 
 export const metadata = {
-  title: "World Traveling",
-  description: "This is a website about my trips around the world.",
+  title: "slideshow",
+
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body >
-        <Header />
+        <Header/>
         {children}
       </body>
     </html>
