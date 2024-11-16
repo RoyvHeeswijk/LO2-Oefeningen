@@ -114,7 +114,7 @@ const App = () => {
         {list.length > 0 ? (
           list.map((item, index) => (
             <div
-              key={item.id} // Use the unique id as the key
+              key={item.id}  
               style={{
                 display: 'flex',
                 justifyContent: 'space-between',
